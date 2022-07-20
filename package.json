@@ -1,7 +1,7 @@
 {
-  "name": "test-code",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "",
+  "description": "{{ description }}",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,10 @@
     "url": "git+https://github.com/linshisancc/test-code.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "{{ author }}",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/linshisancc/test-code/issues"
   },
-  "homepage": "https://github.com/linshisancc/test-code#readme"
+  "homepage": "https://github.com/linshisancc/test-code#readme",
 }
